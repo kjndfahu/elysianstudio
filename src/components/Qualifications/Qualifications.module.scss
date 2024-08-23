@@ -1,0 +1,139 @@
+
+.content{
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  justify-content: center;
+}
+
+.maintext{
+  font-family: SfRoundedSemiBold;
+  margin:0;
+  font-size: 44px;
+  font-weight: 600;
+  line-height: 52.51px;
+  color: #F0E9DF;
+  span{
+    color: #F0AA42;
+
+  }
+}
+
+.workerstext{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: SfRoundedRegular;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 33.41px;
+  color: #F0E9DF;
+  opacity: 0.5;
+}
+
+
+.manycards{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.juniordev{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 466px;
+  height: 160px;
+  gap: 10px;
+  border-radius: 36px;
+  background: #FFFFFF1A;
+  box-shadow: 0 50px 100px 0 #00000040;
+}
+
+.middledev{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 466px;
+  height: 160px;
+  gap: 10px;
+  border-radius: 36px;
+  box-shadow: 0 50px 100px 0 #00000040;
+  background: #433829;
+}
+
+.seniordev{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 466px;
+  height: 160px;
+  gap: 10px;
+  border-radius: 36px;
+  box-shadow: 0 50px 100px 0 #00000040;
+  background: #433829;
+  border: 4px solid #F0AA42;
+}
+
+.paragraph{
+  font-family: SfRoundedRegular;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 23.87px;
+  color: #F0E9DF;
+  opacity: 0.5;
+  margin: 0;
+
+}
+
+.makeorderbtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-family: SfRoundedMedium;
+  padding: 18px 34px;
+  border-radius: 16px;
+  font-size: 20px;
+  line-height: 23.87px;
+  background: #F0AA42;
+  gap: 10px;
+  color: black;
+}
+
+.absolutes {
+  position: absolute;
+  z-index: 1;
+}
+
+.thinkingface{
+  position: absolute;
+  z-index: 1;
+  width: 186px;
+  height: 186px;
+  top: 750px;
+  left: 1115px;
+  opacity: 0.7;
+  rotate: -15deg;
+
+}
+
+.facewglasses{
+  position: absolute;
+  z-index: 1;
+  opacity: 0.7;
+  width: 188.57px;
+  height: 188.57px;
+  top: 438.21px;
+  left: -50px;
+  rotate: -11deg;
+
+}
+

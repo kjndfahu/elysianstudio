@@ -1,0 +1,120 @@
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  margin-top: 75px;
+  gap: 150px;
+}
+
+.content{
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+
+.allinfo{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.texts{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 780px;
+  gap: 25px;
+}
+
+
+.heromain{
+  margin: 0;
+  font-family: SfRoundedSemiBold;
+  font-size: 60px;
+  line-height: 71.6px;
+  color: white;
+
+  span{
+    color: #F0AA42;
+  }
+
+}
+
+.herotext{
+  margin: 0;
+  text-align: center;
+  font-family: SfRoundedRegular;
+  line-height: 33px;
+  font-weight: 500;
+  font-size: 28px;
+  color: rgba(white, 0.50);
+}
+
+.makeorderbtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-family: SfRoundedMedium;
+  padding: 18px 34px;
+  border-radius: 16px;
+  font-size: 20px;
+  line-height: 23.87px;
+  background: #F0AA42;
+  gap: 10px;
+  color: black;
+}
+
+.lastblock{
+  z-index: 10;
+  display: flex;
+  flex-direction: row;
+  font-family: SfRoundedLight;
+  align-self: center;
+  opacity: 0.25;
+  gap: 50px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 23.87px;
+  color: #F0E9DF;
+}
+
+.lasttext{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 5px;
+}
+
+.absolutes{
+  position: absolute;
+  z-index: 1;
+}
+
+.mockup1{
+  position: absolute;
+  top: 57px;
+  left: -600px;
+
+}
+
+.mockup2{
+  position: absolute;
+  top: -17px;
+  left: 317px;
+}
+
+.byehand{
+  position: absolute;
+  z-index: 1;
+  opacity: 0.7;
+  width: 186.72px;
+  height: 186.72px;
+  top: -75px;
+  left: -120px;
+
+}

@@ -1,0 +1,85 @@
+.wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100rem;
+  max-width: 1600px;
+  position: sticky;
+  top: 20px;
+  z-index: 11;
+}
+
+.content{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  padding: 20px 20px;
+  background: #242424;
+  border-radius: 36px;
+}
+
+.leftblock{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.maintext{
+  font-family: SfRoundedSemiBold;
+  font-size: 28px;
+  color: #F0AA42;
+  margin: 0;
+}
+.paragraph{
+  font-family: SfRoundedRegular;
+  color: rgba(white, 0.35);
+  font-size: 16px;
+  line-height: 19px;
+  margin: 0;
+}
+
+.rightblock{
+  display: flex;
+  flex-direction: row;
+}
+
+.buttonsdiv{
+  display: flex;
+  align-items: center;
+}
+
+.btntext{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-family: SfRoundedRegular;
+  padding: 15px 33px;
+  //background: var(--accent, #F0AA42);
+  border-radius: 16px;
+  font-size: 20px;
+  color: rgba(white, 0.35);
+  margin:0;
+
+  &:hover{
+    background: rgba(#F0AA42, 0.25);
+    color: #F0AA42;
+  }
+}
+
+.makeorderbtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-family: SfRoundedMedium;
+  padding: 18px 32px;
+  border-radius: 16px;
+  font-size: 20px;
+  line-height: 23.87px;
+  background: #F0AA42;
+  color: black;
+}

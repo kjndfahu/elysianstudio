@@ -1,13 +1,46 @@
 body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #000000;
+  background-image: url("./assets/BGLighting.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow-x: hidden;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+@font-face {
+  font-family: SfRoundedBold;
+  src: url("../public/SF-Pro-Rounded-Bold.otf")
+}
+
+@font-face {
+  font-family: SfRoundedSemiBold;
+  src: url("../public/SF-Pro-Rounded-Semibold.otf")
+}
+
+@font-face {
+  font-family: SfRoundedMedium;
+  src: url("../public/SF-Pro-Rounded-Medium.otf")
+}
+
+@font-face {
+  font-family: SfRoundedRegular;
+  src: url("../public/SF-Pro-Rounded-Regular.otf")
+}
+
+@font-face {
+  font-family: SfRoundedLight;
+  src: url("../public/SF-Pro-Rounded-Light.otf")
 }
