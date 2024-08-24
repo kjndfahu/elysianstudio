@@ -4,8 +4,14 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 30px;
+  gap: 50px;
   justify-content: center;
+}
+
+.workers{
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
 }
 
 .maintext{
@@ -21,15 +27,28 @@
   }
 }
 
+.developers{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.designers{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
 .workerstext{
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: SfRoundedRegular;
+  font-family: SfRoundedSemiBold;
   font-size: 28px;
   font-weight: 600;
   line-height: 33.41px;
   color: #F0E9DF;
+  margin: 0;
   opacity: 0.5;
 }
 
@@ -83,7 +102,7 @@
 }
 
 .paragraph{
-  font-family: SfRoundedRegular;
+  font-family: SfRoundedMedium;
   font-size: 20px;
   font-weight: 500;
   line-height: 23.87px;
@@ -139,6 +158,7 @@
 .workers{
   width: 100vw;
 }
+
 
 @media(max-width: 800px){
   .maintext{

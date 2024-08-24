@@ -12,7 +12,7 @@
   height: 400px;
   padding: 50px 176px;
   left: 484.46px;
-  background: #FFFFFF1A;
+  background: rgba(255, 255, 255, 0.1);
   border-radius: 36px;
   box-shadow: 0 50px 100px 0 #00000040;
 }
@@ -32,10 +32,10 @@
 }
 
 .text{
-  font-family: SfRoundedLight;
+  font-family: SfRoundedMedium;
   font-size: 20px;
   font-weight: 500;
-  line-height: 19.09px;
+  line-height: 23px;
   text-align: center;
   margin: 0;
   color: rgba(white, 0.50);
@@ -44,6 +44,17 @@
 .absolutes{
   position: absolute;
   z-index: 1;
+}
+
+
+.mainlineabs{
+  display: flex;
+  position: absolute;
+  align-items: center;
+  gap: 50px;
+  rotate: -5deg;
+  opacity: 0.75;
+  height: 60%;
 }
 
 .laptop{

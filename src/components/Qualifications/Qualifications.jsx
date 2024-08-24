@@ -2,17 +2,11 @@ import React from 'react';
 import styles from './Qualifications.module.scss'
 import SpecialitiesText from "../SpeacialitiesText/SpecialitiesText";
 import {TelegramLogo} from "../Svgs/Svgs";
-import thinkingface from '../../assets/gifs/thiknkingface.gif'
-import facewglasses from '../../assets/gifs/facewglasses.gif'
 import {motion} from 'framer-motion'
 
 function Qualifications() {
     return (
         <div className={styles.wrapper}>
-            <div className={styles.absolutes}>
-                <img className={styles.facewglasses} src={facewglasses} alt="facewglasses"/>
-                <img className={styles.thinkingface} src={thinkingface} alt="thinkingface"/>
-            </div>
             <div className={styles.content}>
                 <h2 className={styles.maintext}><span>Квалификации</span> наших работников</h2>
                 <div className={styles.workers}>

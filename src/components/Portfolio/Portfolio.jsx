@@ -9,9 +9,6 @@ import {motion} from 'framer-motion'
 function Portfolio() {
     return (
         <div className={styles.wrapper}>
-            <div className={styles.absolutes}>
-                <img className={styles.flame} src={flame} alt="flame"/>
-            </div>
             <div className={styles.content}>
             <h2 className={styles.maintext}>Наши <span>работы</span></h2>
                 <PortfolioSlider/>

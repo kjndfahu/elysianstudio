@@ -24,10 +24,6 @@ function TGBot() {
     return (
         <div className={styles.wrapper}>
             <h2 className={styles.maintext}> Наш <span>Telegram бот</span></h2>
-            <div className={styles.absolutes}>
-                <img className={styles.hand} src={handvictory} alt="hand"/>
-                <img className={styles.angel} src={angel} alt="angel"/>
-            </div>
             <div className={styles.content}>
             {data.map((item) => (
                     <div className={styles.block}>

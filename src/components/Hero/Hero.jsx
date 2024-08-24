@@ -11,13 +11,6 @@ function Hero() {
     return (
         <div className={styles.wrapper}>
             <div className={styles.content}>
-                <div className={styles.svgs}>
-                    <div className={styles.conf1}><ConfettiRoz/></div>
-                    <div className={styles.akcia}><Akcia/></div>
-                    <img className={styles.stars} src={stars} alt="stars"/>
-                    <img className={styles.colors} src={colors} alt="colors"/>
-                    <img className={styles.raketka} src={raketka} alt="raketka"/>
-                </div>
                 <div className={styles.allinfo}>
                 <HeroLogo/>
                     <div className={styles.texts}>

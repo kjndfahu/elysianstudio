@@ -27,6 +27,7 @@
   display: flex;
   align-items: center;
   flex-direction: column;
+  max-width: 840px;
   gap: 25px;
 }
 
@@ -48,7 +49,7 @@
 .herotext{
   margin: 0;
   text-align: center;
-  font-family: SfRoundedRegular;
+  font-family: SfRoundedMedium;
   font-weight: 500;
   font-size: 28px;
   color: rgba(white, 0.5);
@@ -116,6 +117,7 @@
   }
 
   .texts{
+    max-width: 504px;
     gap: 20px;
   }
 

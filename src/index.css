@@ -22,27 +22,17 @@ code {
 
 @font-face {
   font-family: SfRoundedBold;
-  src: url("../public/SF-Pro-Rounded-Bold.otf")
+  src: url("../public/SF-Pro-Rounded-Bold.ttf")
 }
 
 @font-face {
   font-family: SfRoundedSemiBold;
-  src: url("../public/SF-Pro-Rounded-Semibold.otf")
+  src: url("../public/SF-Pro-Rounded-Semibold.ttf")
 }
 
 @font-face {
   font-family: SfRoundedMedium;
-  src: url("../public/SF-Pro-Rounded-Medium.otf")
-}
-
-@font-face {
-  font-family: SfRoundedRegular;
-  src: url("../public/SF-Pro-Rounded-Regular.otf")
-}
-
-@font-face {
-  font-family: SfRoundedLight;
-  src: url("../public/SF-Pro-Rounded-Light.otf")
+  src: url("../public/SF-Pro-Rounded-Medium.ttf")
 }
 
 .swiper-slide.swiper-slide-prev{
