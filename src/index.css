@@ -44,3 +44,10 @@ code {
   font-family: SfRoundedLight;
   src: url("../public/SF-Pro-Rounded-Light.otf")
 }
+
+.swiper-slide.swiper-slide-prev{
+  filter:blur(1px);
+}
+.swiper-slide.swiper-slide-next{
+  filter:blur(1px);
+}

@@ -3,6 +3,7 @@
   flex-direction: column;
   margin-top: 75px;
   gap: 150px;
+  width: 100vw;
 }
 
 .content{
@@ -12,6 +13,7 @@
   align-items: center;
   justify-content: center;
   gap: 25px;
+  width: 100vw;
 }
 
 .allinfo{
@@ -26,8 +28,8 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  width: 780px;
   gap: 25px;
+  max-width: 775px;
 }
 
 
@@ -99,7 +101,7 @@
   position: absolute;
   top: 57px;
   left: -600px;
-
+  z-index: 1;
 }
 
 .mockup2{
@@ -116,5 +118,43 @@
   height: 186.72px;
   top: -75px;
   left: -120px;
+}
 
+@media(max-width: 800px){
+  .allinfo {
+    margin: 0 20px;
+  }
+  .heromain{
+    font-size: 28px;
+    line-height: 33px;
+  }
+
+  .herotext{
+    font-size: 20px;
+    line-height: 22px;
+  }
+
+}
+
+@media(max-width: 480px){
+  .content{
+    gap: 10px;
+  }
+
+  .allinfo{
+    gap: 10px;
+  }
+
+  .texts{
+    gap: 10px;
+  }
+
+  .herotext{
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .makeorderbtn{
+    padding: 13px 18px;
+  }
 }

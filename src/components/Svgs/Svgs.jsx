@@ -1,10 +1,12 @@
 import React from 'react'
+import styles from './Svgs.module.scss'
 
 export const Logo = () => {
     return (
         <svg
             width={60}
             height={60}
+            className={styles.logo}
             viewBox="0 0 60 60"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
@@ -32,6 +34,7 @@ export const HeroLogo = () => {
         <svg
             width={125}
             height={125}
+            className={styles.herologo}
             viewBox="0 0 125 125"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
@@ -107,6 +110,7 @@ export const QRcode =() => {
     return (
         <svg
             width={201}
+            className={styles.qrcode}
             height={200}
             viewBox="0 0 201 200"
             fill="none"

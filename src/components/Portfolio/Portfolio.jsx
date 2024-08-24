@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './Portfolio.module.scss'
-import {TelegramLogo} from "../Svgs";
+import {TelegramLogo} from "../Svgs/Svgs";
 import PortfolioSlider from "../PortfolioSlider/PortfolioSlider";
 import flame from "../../assets/gifs/flame.gif";
 import {motion} from 'framer-motion'

@@ -1,6 +1,6 @@
 import React from "react";
 import styles from './Hero.module.scss'
-import {HeroLogo} from "../Svgs";
+import {HeroLogo} from "../Svgs/Svgs";
 import {motion} from 'framer-motion'
 import {Akcia, ConfettiRoz, Stars} from "../SvgsForBackground";
 import stars from '../../assets/gifs/stars.gif'

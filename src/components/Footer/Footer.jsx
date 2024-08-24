@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './Footer.module.scss'
-import {HeroLogo, QRcode, TelegramGrey, TelegramLogo} from "../Svgs";
+import {HeroLogo, QRcode, TelegramGrey, TelegramLogo} from "../Svgs/Svgs";
 import mockupfooter1 from '../../assets/mockupfooter1.png'
 import mockupfooter2 from '../../assets/mockupfooter2.png'
 import byehand from '../../assets/gifs/byehand.gif'

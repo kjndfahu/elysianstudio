@@ -3,9 +3,8 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  padding: 30px;
-  width: 406px;
-  height: 152px;
+  max-width: 406px;
+  padding: 20px;
   gap: 10px;
   border-radius: 36px;
   background: #FFFFFF1A;
@@ -35,5 +34,18 @@
   p{
     margin:0;
     opacity: 0.5;
+  }
+}
+
+@media(max-width:800px){
+  .wrapper{
+    border-radius: 24px;
+  }
+  .specialityname{
+    font-size: 20px;
+  }
+
+  .specinfo{
+    font-size: 14px;
   }
 }

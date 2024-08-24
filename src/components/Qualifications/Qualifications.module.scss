@@ -134,6 +134,19 @@
   top: 438.21px;
   left: -50px;
   rotate: -11deg;
+}
 
+.workers{
+  width: 100vw;
+}
+
+@media(max-width: 800px){
+  .maintext{
+    font-size: 28px;
+  }
+
+  .workerstext{
+    font-size: 20px;
+  }
 }
 

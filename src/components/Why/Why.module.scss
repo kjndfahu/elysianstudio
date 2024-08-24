@@ -17,6 +17,7 @@
 
 .maintext{
   font-family: SfRoundedSemiBold;
+  text-align: center;
   margin:0;
   font-size: 44px;
   font-weight: 600;
@@ -26,4 +27,16 @@
     color: #F0AA42;
 
   }
+}
+
+@media(max-width:800px){
+  .wrapper{
+    margin: 0 20px;
+  }
+
+  .maintext{
+    font-size: 28px;
+    line-height: 33px;
+  }
+
 }

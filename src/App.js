@@ -1,5 +1,5 @@
 import styles from './App.module.scss'
-import {Background} from "./components/Svgs";
+import {Background} from "./components/Svgs/Svgs";
 import Header from "./components/Header/Header";
 import Main from "./components/Main/Main";
 

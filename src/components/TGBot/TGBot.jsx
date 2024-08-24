@@ -35,7 +35,7 @@ function TGBot() {
                             <h3 className={styles.blocktitle}>{item.title}</h3>
                             <p className={styles.blocktext}>{item.text}</p>
                         </div>
-                        <img src={item.img} alt="iphone"/>
+                        <img className={styles.iphonemockups} src={item.img} alt="iphone"/>
                     </div>
                 ))}
             </div>

@@ -1,6 +1,9 @@
 .wrapper{
   display: flex;
   margin-top: 75px;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
 }
 
 .content{
@@ -9,6 +12,7 @@
   align-items: center;
   justify-content: center;
   gap: 60px;
+  margin: 0 160px;
 }
 
 .allinfo{
@@ -16,7 +20,6 @@
   z-index:10;
   align-items: center;
   flex-direction: column;
-  width: 54rem;
   gap: 25px;
 }
 
@@ -24,12 +27,12 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  width: 54rem;
   gap: 25px;
 }
 
 
 .heromain{
+  text-align: center;
   margin: 0;
   font-family: SfRoundedSemiBold;
   font-size: 60px;
@@ -105,4 +108,31 @@
   position: absolute;
   top: 130px;
   left: 50px;
+}
+
+@media(max-width: 800px){
+  .wrapper{
+    margin: 100px 0;
+  }
+
+  .texts{
+    gap: 20px;
+  }
+
+  .content{
+    gap: 20px;
+    margin: 0 20px;
+  }
+
+  .allinfo{
+    margin: 0 20px;
+  }
+
+  .heromain{
+    font-size: 36px;
+    line-height: 43px;
+  }
+  .herotext{
+    font-size: 14px;
+  }
 }
