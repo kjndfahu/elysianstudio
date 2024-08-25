@@ -1,20 +1,12 @@
 import React from 'react';
 import styles from './Footer.module.scss'
 import {HeroLogo, QRcode, TelegramGrey, TelegramLogo} from "../Svgs/Svgs";
-import mockupfooter1 from '../../assets/mockupfooter1.png'
-import mockupfooter2 from '../../assets/mockupfooter2.png'
-import byehand from '../../assets/gifs/byehand.gif'
 import {motion} from 'framer-motion'
 
 function Footer() {
     const telegramName = '@immorrtalz'
     return (
         <div className={styles.wrapper}>
-            <div className={styles.absolutes}>
-                <img className={styles.byehand} src={byehand} alt="byehand"/>
-                <img className={styles.mockup1} src={mockupfooter1} alt="iphone"/>
-                <img className={styles.mockup2} src={mockupfooter2} alt="iphone"/>
-            </div>
             <div className={styles.content}>
                 <div className={styles.allinfo}>
                     <div className={styles.texts}>

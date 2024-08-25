@@ -3,17 +3,20 @@ import styles from './Header.module.scss'
 import {Logo} from "../Svgs/Svgs";
 import {motion} from "framer-motion";
 import BurgerMenu from "../BurgerMenu/BurgerMenu";
+import studiologo from '../../assets/studiologo.jpg'
 
 function Header() {
     const data = ['О нас', 'Наши работы', 'Почему мы', 'Веб-апп']
     const [activeBurger, setActiveBurger] = React.useState(false)
+
+    console.log('activeBurger', activeBurger)
 
     return (
         <div className={styles.wrapper}>
             <BurgerMenu isActive={activeBurger} setActive={setActiveBurger}/>
             <div className={styles.content}>
                 <div className={styles.leftblock}>
-                    <Logo/>
+                    <img className={styles.studiologo} src={studiologo} alt="logo"/>
                     <div className={styles.logotext}>
                         <h2 className={styles.maintext}>ElysianStudio</h2>
                         <p className={styles.paragraph}>Ваши идеи – наша реальность</p>

@@ -13,23 +13,22 @@ function BurgerMenu({isActive, setActive}) {
     }, [isActive])
 
     return (
-        <div className={`${styles.wrapper} ${isActive ? styles.active : ""}`}>
-            <div className={styles.list}>
-                <li className={styles.how_works} ></li>
-                <li className={styles.price} ></li>
-                <li className={styles.questions} ></li>
-            </div>
-            <div className={styles.infoblock}>
-                <div className={styles.firstblock}>
-                    <p className={styles.headoflist}></p>
-                    <h4></h4>
-                    <h4></h4>
-                </div>
-                <div className={styles.secondblock}>
-                    <p className={styles.headoflist}></p>
-                    <h4></h4>
-                    <h4></h4>
-                </div>
+        <div className={`${styles.component} ${isActive ? styles.active : ""}`}>
+            <div className={styles.wrapper }>
+                    <div className={styles.list}>
+                        <div className={styles.textblock}>
+                            <li className={styles.aboutus}>О нас</li>
+                        </div>
+                        <div className={styles.textblock}>
+                            <li className={styles.ourworks}>Наши работы</li>
+                        </div>
+                        <div className={styles.textblock}>
+                            <li className={styles.why}>Почему мы</li>
+                        </div>
+                        <div className={styles.textblock}>
+                            <li className={styles.webapp}>Веб-апп</li>
+                        </div>
+                    </div>
             </div>
         </div>
     );

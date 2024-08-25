@@ -1,16 +1,15 @@
 import React from 'react'
 import styles from './Portfolio.module.scss'
 import {TelegramLogo} from "../Svgs/Svgs";
-import PortfolioSlider from "../PortfolioSlider/PortfolioSlider";
-import flame from "../../assets/gifs/flame.gif";
 import {motion} from 'framer-motion'
+import PortfolioSlider from "../PortfolioSlider/PortfolioSlider";
 
 
 function Portfolio() {
     return (
         <div className={styles.wrapper}>
             <div className={styles.content}>
-            <h2 className={styles.maintext}>Наши <span>работы</span></h2>
+                <h2 className={styles.maintext}>Наши <span>работы</span></h2>
                 <PortfolioSlider/>
                 <p className={styles.paragraph}>Подробнее с кейсами можно ознакомиться по кнопке ниже:</p>
                 <motion.div className={styles.makeorderbtn} whileHover={{scale: 1.1}} whileTap={{scale: 0.9}}>

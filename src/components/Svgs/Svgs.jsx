@@ -180,6 +180,7 @@ export const TelegramGrey = () => {
     return (
         <svg
             width={21}
+            className={styles.telegray}
             height={20}
             viewBox="0 0 21 20"
             fill="none"

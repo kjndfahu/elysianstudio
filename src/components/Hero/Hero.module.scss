@@ -95,6 +95,12 @@
   opacity: 0.7;
 }
 
+.studiologo{
+  width: 125px;
+  height: 125px;
+  border-radius: 36px;
+}
+
 .colors{
   position: absolute;
   top: 174px;
@@ -114,6 +120,12 @@
 @media(max-width: 800px){
   .wrapper{
     margin: 100px 0;
+  }
+
+  .studiologo{
+    width: 80px;
+    height: 80px;
+    border-radius: 26px;
   }
 
   .texts{

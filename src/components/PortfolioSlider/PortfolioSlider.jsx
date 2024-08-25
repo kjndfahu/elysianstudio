@@ -1,70 +1,86 @@
 import React from 'react';
-import Slider from 'react-slick';
-import styles from './PortfolioSlider.module.scss';
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+// Import Swiper React components
+import { Swiper, SwiperSlide } from 'swiper/react';
 
-const PortfolioSlider = () => {
-    const settings = {
-        infinite: true,
-        slidesToShow: 6, // Отображаем 6 блоков на экране
-        slidesToScroll: 1,
-        centerMode: true,
-        centerPadding: '0',
-        responsive: [
-            {
-                breakpoint: 1024,
-                settings: {
-                    slidesToShow: 4, // На экранах поменьше показываем 4 блока
-                    slidesToScroll: 1,
-                }
-            },
-            {
-                breakpoint: 768,
-                settings: {
-                    slidesToShow: 2, // На экранах еще меньше показываем 2 блока
-                    slidesToScroll: 1,
-                }
-            },
-            {
-                breakpoint: 480,
-                settings: {
-                    slidesToShow: 1, // На мобильных устройствах показываем 1 блок
-                    slidesToScroll: 1,
-                }
-            }
-        ]
-    };
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/pagination';
+import './PortfolioSlider.css';
+import 'swiper/css/navigation';
+import sliderimage from '../../assets/sliderimage.png'
+import {Autoplay, Navigation } from 'swiper/modules';
 
-    const slides = [
-        'Сайт для банка 1',
-        'Сайт для банка 2',
-        'Сайт для банка 3',
-        'Сайт для банка 4',
-        'Сайт для банка 5',
-        'Сайт для банка 6',
-        'Сайт для банка 7',
-        'Сайт для банка 8'
-    ];
-
+export default function PortfolioSlider() {
     return (
-        <div className={styles.slidercontainer}>
-            <div className={styles.blurleft} />
-
-            <Slider {...settings}>
-                {slides.map((slide, index) => (
-                    <div key={index} className={styles.slideritem}>
-                        <div className={styles.imageplaceholder}>Image</div>
-                        <div className={styles.title}>{slide}</div>
-                        <div className={styles.subtitles}>Какая-то доп. инфа</div>
+        <div className="portfolio-slider">
+            <Swiper
+                slidesPerView={5}
+                spaceBetween={10}
+                navigation={true}
+                centeredSlides={true}
+                loop={true}
+                autoplay={{
+                    delay: 2500,
+                    disableOnInteraction: false,
+                }}
+                modules={[Autoplay, Navigation]}
+                className="mySwiper"
+            >
+                <SwiperSlide>
+                    <div className="portfolio-block">
+                        <img className="imageslider" src={sliderimage} alt="sliderimage"/>
+                        <div className="textssliders">
+                            <h4 className="slidermaintext">Сайт для банка</h4>
+                            <p className="slidertext">Какая-то доп. инфа</p>
+                        </div>
                     </div>
-                ))}
-            </Slider>
-
-            <div className={styles.blurright} />
+                </SwiperSlide>
+                <SwiperSlide>
+                    <div className="portfolio-block">
+                        <img className="imageslider" src={sliderimage} alt="sliderimage"/>
+                        <div className="textssliders">
+                            <h4 className="slidermaintext">Сайт для банка</h4>
+                            <p className="slidertext">Какая-то доп. инфа</p>
+                        </div>
+                    </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <div className="portfolio-block">
+                        <img className="imageslider" src={sliderimage} alt="sliderimage"/>
+                        <div className="textssliders">
+                            <h4 className="slidermaintext">Сайт для банка</h4>
+                            <p className="slidertext">Какая-то доп. инфа</p>
+                        </div>
+                    </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <div className="portfolio-block">
+                        <img className="imageslider" src={sliderimage} alt="sliderimage"/>
+                        <div className="textssliders">
+                            <h4 className="slidermaintext">Сайт для банка</h4>
+                            <p className="slidertext">Какая-то доп. инфа</p>
+                        </div>
+                    </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <div className="portfolio-block">
+                        <img className="imageslider" src={sliderimage} alt="sliderimage"/>
+                        <div className="textssliders">
+                            <h4 className="slidermaintext">Сайт для банка</h4>
+                            <p className="slidertext">Какая-то доп. инфа</p>
+                        </div>
+                    </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <div className="portfolio-block">
+                        <img className="imageslider" src={sliderimage} alt="sliderimage"/>
+                        <div className="textssliders">
+                            <h4 className="slidermaintext">Сайт для банка</h4>
+                            <p className="slidertext">Какая-то доп. инфа</p>
+                        </div>
+                    </div>
+                </SwiperSlide>
+            </Swiper>
         </div>
     );
-
-};
-
-export default PortfolioSlider;
+}

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import styles from './AboutUsSlider.module.scss';
+import './AboutUsSliderTwo.css';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
@@ -56,25 +56,25 @@ const slides = [
             ' fringilla, mattis ligula consectetur, ultrices mauris.' },
 ];
 
-const AboutUsSlider = () => {
+const AboutUsSliderTwo = () => {
     return (
-        <div className={styles.sliderContainer}>
+        <div className="sliderContainer">
             <Swiper
                 spaceBetween={30}
                 slidesPerView={3}
                 centeredSlides={true}
                 loop={true}
-                className={styles.mySwiper}
+                className="mySwiper"
                 grabCursor={true}
                 slideToClickedSlide={true}
             >
                 {slides.map((slide) => (
-                    <SwiperSlide key={slide.id} className={styles.slide}>
-                        <div className={styles.slideContent}>
-                            <div className={styles.textcontainer}>
-                                <h3 className={styles.title}>{slide.title}</h3>
-                                <p className={styles.subtitle}>{slide.subtitle}</p>
-                                <div className={styles.btn}>Подробнее</div>
+                    <SwiperSlide key={slide.id} className="slide">
+                        <div className="slideContent">
+                            <div className="textcontainer">
+                                <h3 className='title'>{slide.title}</h3>
+                                <p className="subtitle">{slide.subtitle}</p>
+                                <div className="btn">Подробнее</div>
                             </div>
                         </div>
                     </SwiperSlide>
@@ -85,4 +85,4 @@ const AboutUsSlider = () => {
 };
 
 
-export default AboutUsSlider;
+export default AboutUsSliderTwo;

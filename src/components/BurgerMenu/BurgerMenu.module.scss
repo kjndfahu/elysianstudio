@@ -1,12 +1,26 @@
-.wrapper{
-  position: fixed;
+.component{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  right: -100%;
+  transition: right 0.3s;
   width: 100%;
-  height: 100%;
+  height: 100vh;
+  top: 80px;
   z-index: 99;
-  top: 90px;
-  left: 100vw;
-  background-color: white;
+  position: fixed;
 }
+
+.wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  height: 100%;
+  background-color: #242424;
+  border-radius: 16px;
+}
+
 
 
 .buttons{
@@ -19,51 +33,30 @@
 
 .list{
   list-style-type: none;
+  width: 90vw;
   display: flex;
   flex-direction: column;
-  gap: 40px;
-  border-bottom: 1px solid #E2E3EF;
-  padding: 35px;
+  gap: 60px;
   align-items: center;
   justify-content: center;
-  font-family: "Ubuntu", sans-serif;
-  font-size: 14px;
+  font-family: SfRoundedSemiBold;
+  font-size: 20px;
   font-weight: 500;
   line-height: 16.09px;
   text-align: left;
+  color: rgba(white, 0.35)
 }
 
-.infoblock{
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
-  padding: 35px 0;
-  gap: 25px;
-
-  p{
-    font-family: "Inter", sans-serif;
-    color:#585967;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 20.3px;
-    text-align: center;
-    margin: 0;
-    margin-bottom: 10px;
-  }
-
-  h4{
-    font-family: "Inter", sans-serif;
-    color:#07040C;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 23.2px;
-    text-align: center;
-
-  }
+.textblock{
+  padding: 20px 10px;
+  width: 70vw;
+  text-align: center;
+  border-bottom: 2px solid white;
 }
 
 .active{
-  left: 0 !important;
+  right: 0 !important;
   position: fixed !important;
 }
+
+

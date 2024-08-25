@@ -35,12 +35,6 @@ code {
   src: url("../public/SF-Pro-Rounded-Medium.ttf")
 }
 
-.swiper-slide.swiper-slide-prev{
-  filter:blur(2px);
-}
-.swiper-slide.swiper-slide-next{
-  filter:blur(2px);
-}
 
 @media(max-width:800px){
   .swiper-slide.swiper-slide-active{
@@ -53,4 +47,5 @@ code {
   .swiper-slide.swiper-slide-next{
     max-width: 406px;
   }
+
 }
