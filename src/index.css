@@ -36,8 +36,21 @@ code {
 }
 
 .swiper-slide.swiper-slide-prev{
-  filter:blur(1px);
+  filter:blur(2px);
 }
 .swiper-slide.swiper-slide-next{
-  filter:blur(1px);
+  filter:blur(2px);
+}
+
+@media(max-width:800px){
+  .swiper-slide.swiper-slide-active{
+    max-width: 406px;
+  }
+
+  .swiper-slide.swiper-slide-prev{
+    max-width: 406px;
+  }
+  .swiper-slide.swiper-slide-next{
+    max-width: 406px;
+  }
 }

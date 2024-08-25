@@ -1,10 +1,16 @@
-
+.wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+}
 .content{
   z-index: 10;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 50px;
+  gap: 60px;
+  width: 100vw;
   justify-content: center;
 }
 
@@ -20,6 +26,7 @@
   font-size: 44px;
   font-weight: 600;
   line-height: 52.51px;
+  text-align: center;
   color: #F0E9DF;
   span{
     color: #F0AA42;
@@ -31,6 +38,8 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
+  width: 100vw;
+  flex-wrap: wrap;
 }
 
 .designers{
@@ -59,6 +68,8 @@
   justify-content: center;
   flex-direction: row;
   gap: 20px;
+  width: 100vw;
+  flex-wrap: wrap;
 }
 
 .juniordev{
@@ -66,8 +77,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  width: 466px;
-  height: 160px;
+  padding: 30px 30px;
   gap: 10px;
   border-radius: 36px;
   background: #FFFFFF1A;
@@ -79,8 +89,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  width: 466px;
-  height: 160px;
+  padding: 30px 30px;
   gap: 10px;
   border-radius: 36px;
   box-shadow: 0 50px 100px 0 #00000040;
@@ -92,8 +101,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  width: 466px;
-  height: 160px;
+  padding: 30px 30px;
   gap: 10px;
   border-radius: 36px;
   box-shadow: 0 50px 100px 0 #00000040;
@@ -109,6 +117,7 @@
   color: #F0E9DF;
   opacity: 0.5;
   margin: 0;
+  text-align: center;
 
 }
 
@@ -159,10 +168,40 @@
   width: 100vw;
 }
 
+.lastitems{
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
 
 @media(max-width: 800px){
+  .content{
+    gap: 40px;
+  }
+  .lastitems{
+    gap: 20px;
+  }
+  .juniordev{
+    padding: 20px;
+    border-radius: 24px;
+  }
+  .middledev{
+    padding: 20px;
+    border-radius: 24px;
+  }
+
+  .seniordev{
+    padding: 20px;
+    border-radius: 24px;
+  }
   .maintext{
     font-size: 28px;
+    line-height: 33.41px;
+  }
+
+  .paragraph{
+    font-size: 14px;
   }
 
   .workerstext{

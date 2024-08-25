@@ -54,11 +54,14 @@ function Qualifications() {
 
                 {/*//TODO: пофиксить пробелы, исправить блоки*/}
 
-                <p className={styles.paragraph}>Убедитесь в качестве наших услуг, сделав заказ:</p>
-                <motion.div className={styles.makeorderbtn} whileHover={{scale: 1.1}} whileTap={{scale: 0.9}}>
-                    <TelegramLogo/>
-                    Сделать заказ
-                </motion.div>
+                <div className={styles.lastitems}>
+                    <p className={styles.paragraph}>Убедитесь в качестве наших услуг, сделав заказ:</p>
+                    <motion.div className={styles.makeorderbtn} whileHover={{scale: 1.1}} whileTap={{scale: 0.9}}>
+                        <TelegramLogo/>
+                        Сделать заказ
+                    </motion.div>
+                </div>
+
 
             </div>
         </div>

@@ -69,7 +69,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 0 30px;
+  padding: 30px 30px;
   gap: 10px;
 }
 
@@ -83,7 +83,7 @@
 }
 
 .subtitle{
-  font-family: SfRoundedLight;
+  font-family: SfRoundedMedium;
   font-size: 16px;
   font-weight: 500;
   line-height: 19.09px;
@@ -108,5 +108,28 @@
   color: black;
 }
 
+
+@media(max-width: 800px){
+  .title{
+    font-size: 20px;
+  }
+
+  .subtitle{
+    font-size: 14px;
+  }
+  .textcontainer{
+    padding: 20px 20px;
+  }
+
+  .sliderContainer{
+    .mySwiper{
+      width: 228vw;
+    }
+  }
+
+  .btn{
+    padding: 13px 17px;
+  }
+}
 
 
