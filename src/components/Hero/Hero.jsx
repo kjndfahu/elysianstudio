@@ -14,7 +14,7 @@ function Hero() {
                     <Rozigrish/>
                     <Stars/>
                     <Colors/>
-                    <img src={raketka} alt="raketka"/>
+                    {/*<img src={raketka} alt="raketka"/>*/}
                 </div>
                 <div className={styles.allinfo}>
                     <img className={styles.studiologo} src={studiologo} alt="logo"/>

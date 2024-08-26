@@ -1,5 +1,5 @@
 .sliderContainer {
-  width: 100%;
+  width: 250vw;
   background: transparent;
   max-width: 1920px;
   margin: 0 auto;
@@ -118,9 +118,6 @@
   }
 
   .sliderContainer{
-    .mySwiper{
-      width: 228vw;
-    }
   }
 
   .btn{
