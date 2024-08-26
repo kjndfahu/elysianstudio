@@ -45,13 +45,22 @@
 }
 
 .swiper-button-prev:after{
-    color: yellow;
-    background: blue;
+    background-color: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    border-radius: 60px;
+    width: 60px;
+    height: 60px;
+    color: white;
 }
 
+
 .swiper-button-next:after{
-    color: yellow;
-    background: blue;
+    background-color: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    border-radius: 60px;
+    width: 60px;
+    height: 60px;
+    color: white;
 }
 
 .swiper-slide{

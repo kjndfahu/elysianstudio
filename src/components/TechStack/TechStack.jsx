@@ -1,10 +1,14 @@
 import React from 'react';
 import styles from './TechStack.module.scss'
 import {Cpp, Csharp, Css, Html, Js, NodeLogo, Php, Python, ReactLogo, Ts, Vue} from "../SvgsTechStack/SvgsTechStack";
+import {Laptop} from "../SvgsForBackground/SvgsForBackground";
 
 function TechStack() {
     return (
         <div className={styles.wrapper}>
+            <div className={styles.absolutes}>
+                <div className={styles.laptop}><Laptop/></div>
+            </div>
             {/*<div className={styles.mainlineabs}>*/}
             {/*    <Vue/>*/}
             {/*    <Cpp/>*/}

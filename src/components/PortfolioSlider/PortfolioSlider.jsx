@@ -89,6 +89,9 @@ export default function PortfolioSlider() {
                         </div>
                     </div>
                 </SwiperSlide>
+
+                <div className=".swiper-button-prev"></div>
+                <div className=".swiper-button-next"></div>
             </Swiper>
         </div>
     );

@@ -8,14 +8,14 @@ import {Akcia, Colors, Rozigrish, Stars} from "../SvgsForBackground/SvgsForBackg
 function Hero() {
     return (
         <div className={styles.wrapper}>
+            <div className={styles.absolutes}>
+                <div className={styles.akcia}><Akcia/></div>
+                <div className={styles.rozigrish}><Rozigrish/></div>
+                <div className={styles.stars}><Stars/></div>
+                <div className={styles.colors}><Colors/></div>
+                <img className={styles.raketka} src={raketka} alt="raketka"/>
+            </div>
             <div className={styles.content}>
-                <div className={styles.absolutes}>
-                    <Akcia/>
-                    <Rozigrish/>
-                    <Stars/>
-                    <Colors/>
-                    {/*<img src={raketka} alt="raketka"/>*/}
-                </div>
                 <div className={styles.allinfo}>
                     <img className={styles.studiologo} src={studiologo} alt="logo"/>
                     <div className={styles.texts}>

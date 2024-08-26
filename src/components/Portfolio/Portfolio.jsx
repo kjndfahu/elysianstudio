@@ -3,11 +3,15 @@ import styles from './Portfolio.module.scss'
 import {TelegramLogo} from "../Svgs/Svgs";
 import {motion} from 'framer-motion'
 import PortfolioSlider from "../PortfolioSlider/PortfolioSlider";
+import {Flame} from "../SvgsForBackground/SvgsForBackground";
 
 
 function Portfolio() {
     return (
         <div className={styles.wrapper}>
+            <div className={styles.absolutes}>
+                <div className={styles.flam1e}><Flame/></div>
+            </div>
             <div className={styles.content}>
                 <h2 className={styles.maintext}>Наши <span>работы</span></h2>
                 <PortfolioSlider/>
