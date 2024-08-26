@@ -3,10 +3,15 @@ import styles from './Qualifications.module.scss'
 import SpecialitiesText from "../SpeacialitiesText/SpecialitiesText";
 import {TelegramLogo} from "../Svgs/Svgs";
 import {motion} from 'framer-motion'
+import {Glasses, Question} from "../SvgsTwo/SvgsTwo";
 
 function Qualifications() {
     return (
         <div className={styles.wrapper}>
+            <div className={styles.absolutes}>
+                <div className={styles.glasses}><Glasses/></div>
+                <div className={styles.question}><Question/></div>
+            </div>
             <div className={styles.content}>
                 <h2 className={styles.maintext}><span>Квалификации</span> наших работников</h2>
                 <div className={styles.workers}>
@@ -51,8 +56,6 @@ function Qualifications() {
                         </div>
                     </div>
                 </div>
-
-                {/*//TODO: пофиксить пробелы, исправить блоки*/}
 
                 <div className={styles.lastitems}>
                     <p className={styles.paragraph}>Убедитесь в качестве наших услуг, сделав заказ:</p>

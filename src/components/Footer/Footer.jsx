@@ -2,11 +2,15 @@ import React from 'react';
 import styles from './Footer.module.scss'
 import {HeroLogo, QRcode, TelegramGrey, TelegramLogo} from "../Svgs/Svgs";
 import {motion} from 'framer-motion'
+import {Byehand} from "../SvgsTwo/SvgsTwo";
 
 function Footer() {
     const telegramName = '@immorrtalz'
     return (
         <div className={styles.wrapper}>
+            <div className={styles.absolutes}>
+                <div className={styles.byehand}><Byehand/></div>
+            </div>
             <div className={styles.content}>
                 <div className={styles.allinfo}>
                     <div className={styles.texts}>

@@ -2,8 +2,7 @@ import React from "react";
 import styles from './TGBot.module.scss'
 import mockup1 from '../../assets/iphonemock.png'
 import mockup2 from '../../assets/iphonemockup2.png'
-import handvictory from '../../assets/gifs/handvictory.gif'
-import angel from '../../assets/gifs/angel.gif'
+import {Angel, Victory} from "../SvgsTwo/SvgsTwo";
 
 function TGBot() {
     const data = [
@@ -23,9 +22,13 @@ function TGBot() {
     ]
     return (
         <div className={styles.wrapper}>
+            <div className={styles.absolutes}>
+                <div className={styles.angellogo}><Angel/></div>
+                <div className={styles.victory}><Victory/></div>
+            </div>
             <h2 className={styles.maintext}> Наш <span>Telegram бот</span></h2>
             <div className={styles.content}>
-            {data.map((item) => (
+                {data.map((item) => (
                     <div className={styles.block}>
                         <div className={styles.texts}>
                             <h3 className={styles.blocktitle}>{item.title}</h3>

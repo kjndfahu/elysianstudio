@@ -40,6 +40,22 @@
   justify-content: center;
 }
 
+.absolutes{
+  position: absolute;
+}
+
+.angellogo{
+  position: absolute;
+  top: -16vw;
+  left: -40vw;
+}
+
+.victory{
+  position: absolute;
+  top: -3vw;
+  left: 25vw;
+}
+
 .block{
   display: flex;
   flex-direction: column;
