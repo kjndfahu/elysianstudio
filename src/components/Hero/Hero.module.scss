@@ -117,6 +117,10 @@
   left: 50px;
 }
 
+.absolutes{
+  position: absolute;
+}
+
 @media(max-width: 800px){
   .wrapper{
     margin: 100px 0;

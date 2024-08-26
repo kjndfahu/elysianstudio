@@ -61,7 +61,7 @@ const AboutUsSliderTwo = () => {
         <div className="sliderContainer">
             <Swiper
                 spaceBetween={30}
-                slidesPerView={3}
+                slidesPerView={'auto'}
                 centeredSlides={true}
                 loop={true}
                 className="mySwiper"

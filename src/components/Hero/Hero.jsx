@@ -1,13 +1,21 @@
 import React from "react";
 import styles from './Hero.module.scss'
-import {HeroLogo} from "../Svgs/Svgs";
+import raketka from '../../assets/raketka.png'
 import {motion} from 'framer-motion'
 import studiologo from '../../assets/studiologo.jpg'
+import {Akcia, Colors, Rozigrish, Stars} from "../SvgsForBackground/SvgsForBackground";
 
 function Hero() {
     return (
         <div className={styles.wrapper}>
             <div className={styles.content}>
+                <div className={styles.absolutes}>
+                    <Akcia/>
+                    <Rozigrish/>
+                    <Stars/>
+                    <Colors/>
+                    <img src={raketka} alt="raketka"/>
+                </div>
                 <div className={styles.allinfo}>
                     <img className={styles.studiologo} src={studiologo} alt="logo"/>
                     <div className={styles.texts}>
