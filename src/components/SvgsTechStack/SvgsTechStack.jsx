@@ -6,6 +6,7 @@ export const Vue = () => {
         <svg
             width={100}
             height={100}
+            className={styles.vue}
             viewBox="0 0 100 100"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
@@ -20,6 +21,7 @@ export const Cpp =() => {
     return (
         <svg
             width={100}
+            className={styles.cpp}
             height={100}
             viewBox="0 0 100 100"
             fill="none"
@@ -57,6 +59,7 @@ export const Php = () => {
     return (
         <svg
             width={100}
+            className={styles.php}
             height={100}
             viewBox="0 0 100 100"
             fill="none"
@@ -88,6 +91,7 @@ export const Html =() => {
     return (
         <svg
             width={100}
+            className={styles.html}
             height={100}
             viewBox="0 0 100 100"
             fill="none"
@@ -113,6 +117,7 @@ export const Python = () => {
     return (
         <svg
             width={100}
+            className={styles.python}
             height={100}
             viewBox="0 0 100 100"
             fill="none"
@@ -158,6 +163,7 @@ export const Csharp = () => {
     return (
         <svg
             width={100}
+            className={styles.csharp}
             height={100}
             viewBox="0 0 100 100"
             fill="none"
@@ -191,6 +197,7 @@ export const NodeLogo = () => {
     return (
         <svg
             width={100}
+            className={styles.nodelogo}
             height={100}
             viewBox="0 0 100 100"
             fill="none"
@@ -212,6 +219,7 @@ export const Js = () => {
     return (
         <svg
             width={100}
+            className={styles.js}
             height={100}
             viewBox="0 0 100 100"
             fill="none"
@@ -233,6 +241,7 @@ export const Css = () => {
     return (
         <svg
             width={100}
+            className={styles.css}
             height={100}
             viewBox="0 0 100 100"
             fill="none"
@@ -270,6 +279,7 @@ export const ReactLogo = () => {
     return (
         <svg
             width={101}
+            className={styles.reactlogo}
             height={100}
             viewBox="0 0 101 100"
             fill="none"
@@ -302,6 +312,7 @@ export const Ts = () => {
     return (
         <svg
             width={100}
+            className={styles.ts}
             height={100}
             viewBox="0 0 100 100"
             fill="none"
@@ -320,10 +331,3 @@ export const Ts = () => {
     )
 }
 
-
-/*export const Js = () => {
-    return (
-
-    )
-    }
-}*/

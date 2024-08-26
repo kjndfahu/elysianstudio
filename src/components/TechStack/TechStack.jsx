@@ -37,9 +37,11 @@ function TechStack() {
                 <Vue/>
             </div>
             <div className={styles.content}>
-                <h2 className={styles.maintext}>Используем <span>современные</span> средства разработки</h2>
-                <p className={styles.text}>Актуальный стек технологий позволяет разрабатывать
-                    качественные и надежные проекты в приемлемые сроки</p>
+                <div className={styles.texts}>
+                    <h2 className={styles.maintext}>Используем <span>современные</span> средства разработки</h2>
+                    <p className={styles.text}>Актуальный стек технологий позволяет разрабатывать
+                        качественные и надежные проекты в приемлемые сроки</p>
+                </div>
             </div>
         </div>
 

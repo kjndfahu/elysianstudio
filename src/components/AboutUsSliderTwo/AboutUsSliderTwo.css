@@ -85,7 +85,7 @@
   line-height: 19.09px;
   text-align: center;
   margin: 0;
-  color: rgba(white, 0.50);
+  color: rgba(255, 255, 255, 0.5);
 
 }
 
@@ -124,7 +124,9 @@
   }
 
   .btn{
-    padding: 13px 17px;
+    padding: 13px 19px;
+    font-size: 16px;
+    line-height: 19px;
   }
 }
 

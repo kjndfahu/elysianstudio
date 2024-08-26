@@ -19,13 +19,22 @@ export default function PortfolioSlider() {
                 navigation={true}
                 centeredSlides={true}
                 loop={true}
-                autoplay={{
-                    delay: 2500,
-                    disableOnInteraction: false,
-                }}
+                // autoplay={{
+                //     delay: 2500,
+                //     disableOnInteraction: false,
+                // }}
                 modules={[Autoplay, Navigation]}
                 className="mySwiper"
             >
+                <SwiperSlide>
+                    <div className="portfolio-block">
+                        <img className="imageslider" src={sliderimage} alt="sliderimage"/>
+                        <div className="textssliders">
+                            <h4 className="slidermaintext">Сайт для банка</h4>
+                            <p className="slidertext">Какая-то доп. инфа</p>
+                        </div>
+                    </div>
+                </SwiperSlide>
                 <SwiperSlide>
                     <div className="portfolio-block">
                         <img className="imageslider" src={sliderimage} alt="sliderimage"/>

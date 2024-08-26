@@ -111,9 +111,7 @@
 }
 
 @media(max-width: 480px){
-  .wrapper{
-    gap: 100px;
-  }
+
   .content{
     gap: 10px;
   }
@@ -134,6 +132,8 @@
   .makeorderbtn{
     padding: 13px 18px;
     margin-top: 32px;
+    font-size: 16px;
+    line-height: 19px;
   }
 
   .lastblock{
