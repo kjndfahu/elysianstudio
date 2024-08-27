@@ -204,6 +204,7 @@ export const Flame = () => {
     return (
         <svg
             width={174}
+            className={styles.flame}
             height={174}
             viewBox="0 0 174 174"
             fill="none"
@@ -241,6 +242,7 @@ export const Laptop = () => {
     return (
         <svg
             width={286}
+            className={styles.laptop}
             height={286}
             viewBox="0 0 286 286"
             fill="none"

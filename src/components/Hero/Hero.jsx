@@ -13,7 +13,9 @@ function Hero() {
                 <div className={styles.rozigrish}><Rozigrish/></div>
                 <div className={styles.stars}><Stars/></div>
                 <div className={styles.colors}><Colors/></div>
-                <img className={styles.raketka} src={raketka} alt="raketka"/>
+                <div className={styles.raketkblock}>
+                    <img className={styles.raketka} src={raketka} alt="raketka"/>
+                </div>
             </div>
             <div className={styles.content}>
                 <div className={styles.allinfo}>

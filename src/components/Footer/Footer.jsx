@@ -1,7 +1,9 @@
 import React from 'react';
 import styles from './Footer.module.scss'
-import {HeroLogo, QRcode, TelegramGrey, TelegramLogo} from "../Svgs/Svgs";
+import {QRcode, TelegramGrey, TelegramLogo} from "../Svgs/Svgs";
 import {motion} from 'framer-motion'
+import mockupfooter1 from '../../assets/mockupfooter1.png'
+import mockupfooter2 from '../../assets/mockupfooter2.png'
 import {Byehand} from "../SvgsTwo/SvgsTwo";
 
 function Footer() {
@@ -10,6 +12,8 @@ function Footer() {
         <div className={styles.wrapper}>
             <div className={styles.absolutes}>
                 <div className={styles.byehand}><Byehand/></div>
+                <img className={styles.mockupfooter1} src={mockupfooter1} alt="mockup logo"/>
+                <img className={styles.mockupfooter2} src={mockupfooter2} alt="mockup logo"/>
             </div>
             <div className={styles.content}>
                 <div className={styles.allinfo}>

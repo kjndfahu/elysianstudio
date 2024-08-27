@@ -77,8 +77,18 @@
 
 .byehand{
   position: absolute;
-  top: -3vw;
-  left: 18vw;
+  top: -5vw;
+  left: 23vw;
+}
+.mockupfooter1{
+  position: absolute;
+  top: 5vw;
+  left: 10vw;
+}
+
+.mockupfooter2{
+  position: absolute;
+  left: 70vw;
 }
 
 .lastblock{
@@ -102,7 +112,42 @@
   gap: 5px;
 }
 
+@media(max-width:1550px){
+  .mockupfooter1{
+    width: 280px;
+    left: 5vw;
+  }
 
+  .mockupfooter2{
+    width: 375px;
+    top: 2vw;
+    left: 73vw;
+  }
+}
+
+@media(max-width:1280px){
+  .mockupfooter1{
+    width: 200px;
+    left: 3vw;
+    top: 10vw;
+  }
+
+  .mockupfooter2{
+    width: 300px;
+    top: 7vw;
+    left: 76vw;
+  }
+}
+
+@media(max-width:1200px){
+  .mockupfooter1{
+    display: none;
+  }
+
+  .mockupfooter2{
+    display: none;
+  }
+}
 
 @media(max-width: 800px){
   .allinfo {

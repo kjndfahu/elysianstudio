@@ -80,20 +80,6 @@
   left: -850px;
 }
 
-.akcia{
-  position: absolute;
-  top: -320px;
-  left: -590px;
-}
-
-.stars{
-  position: absolute;
-  top: -224px;
-  left: 506px;
-  width: 152px;
-  height: 152px;
-  opacity: 0.7;
-}
 
 .studiologo{
   width: 125px;
@@ -101,20 +87,11 @@
   border-radius: 36px;
 }
 
-.colors{
-  position: absolute;
-  top: 174px;
-  left: -606px;
-  opacity: 0.7;
-  width: 234px;
-  height: 234px;
-  rotate: -15 deg;
-}
-
 .raketka{
   position: absolute;
-  top: 130px;
-  left: 50px;
+  top: 8vw;
+  left: 10vw;
+  height: 300px;
 }
 
 .absolutes{
@@ -155,6 +132,12 @@
     top: -18vw;
     left: 25vw;
   }
+
+  .raketka{
+    position: absolute;
+    top: 14vw;
+    left: 10vw;
+  }
 }
 
 @media(max-width: 1450px){
@@ -165,6 +148,10 @@
   .rozigrish{
     top: -7vw;
     left: -49vw;
+  }
+
+  .raketka{
+    height: 300px;
   }
 }
 
@@ -184,8 +171,39 @@
   }
 
   .colors{
-    top: 15vw;
-    left: -30vw;
+    display: none;
+  }
+
+  .raketkblock{
+    .raketka{
+      position: static;
+    }
+    display: flex;
+    position: absolute;
+    left: -50vw;
+    width: 100vw;
+    top: 19vw;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .raketka{
+    top: 19vw;
+  }
+}
+
+@media(max-width: 1159px){
+  .raketkblock{
+    .raketka{
+      position: static;
+    }
+    display: flex;
+    position: absolute;
+    left: -50vw;
+    width: 100vw;
+    top: 23vw;
+    justify-content: center;
+    align-items: center;
   }
 }
 
@@ -204,9 +222,33 @@
     left: 10vw;
   }
 
-  .colors{
-    top: 22vw;
-    left: -29vw;
+  .raketkblock{
+    .raketka{
+      position: static;
+    }
+    display: flex;
+    position: absolute;
+    left: -50vw;
+    width: 100vw;
+    top: 26vw;
+    justify-content: center;
+    align-items: center;
+  }
+
+}
+
+@media(max-width: 1041px){
+  .raketkblock{
+    .raketka{
+      position: static;
+    }
+    display: flex;
+    position: absolute;
+    left: -50vw;
+    width: 100vw;
+    top: 26vw;
+    justify-content: center;
+    align-items: center;
   }
 }
 
@@ -219,6 +261,19 @@
     top: -35vw;
     left: 10vw;
   }
+
+  .raketkblock{
+    .raketka{
+      position: static;
+    }
+    display: flex;
+    position: absolute;
+    left: -50vw;
+    width: 100vw;
+    top: 29vw;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 @media(max-width: 900px){
@@ -227,9 +282,20 @@
     left: 11vw;
   }
 
-  .colors{
-    display: none;
+  .raketkblock{
+    .raketka{
+      position: static;
+    }
+    display: flex;
+    position: absolute;
+    left: -50vw;
+    width: 100vw;
+    top: 35vw;
+    justify-content: center;
+    align-items: center;
   }
+
+
 }
 
 
@@ -279,6 +345,20 @@
     top: 8vw;
     left: 15vw;
   }
+
+  .raketkblock{
+    .raketka{
+      position: static;
+      height: 370px;
+    }
+    display: flex;
+    position: absolute;
+    left: -50vw;
+    width: 100vw;
+    top: 20vw;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 @media(max-width: 650px){
@@ -306,6 +386,20 @@
     top: 19vw;
     left: 20vw;
   }
+
+  .raketkblock{
+    .raketka{
+      position: static;
+      height: 300px;
+    }
+    display: flex;
+    position: absolute;
+    left: -50vw;
+    width: 100vw;
+    top: 34vw;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 @media(max-width: 585px){
@@ -317,6 +411,7 @@
     top: -43vw;
     left: -40vw;
   }
+
 }
 
 @media(max-width: 450px){
@@ -327,6 +422,20 @@
   .rozigrish{
     top: -50vw;
     left: -50vw;
+  }
+
+  .raketkblock{
+    .raketka{
+      position: static;
+      height: 270px;
+    }
+    display: flex;
+    position: absolute;
+    left: -50vw;
+    width: 100vw;
+    top: 48vw;
+    justify-content: center;
+    align-items: center;
   }
 }
 
@@ -345,5 +454,19 @@
   .stars{
     top: 27vw;
     left: 27vw;
+  }
+
+  .raketkblock{
+    .raketka{
+      position: static;
+      height: 240px;
+    }
+    display: flex;
+    position: absolute;
+    left: -50vw;
+    width: 100vw;
+    top: 56vw;
+    justify-content: center;
+    align-items: center;
   }
 }

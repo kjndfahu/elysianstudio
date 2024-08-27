@@ -5,6 +5,7 @@ export const Zeus = () => {
     return (
         <svg
             width={186}
+            className={styles.zeus}
             height={186}
             viewBox="0 0 186 186"
             fill="none"
@@ -42,6 +43,7 @@ export const Glasses = () => {
     return (
         <svg
             width={222}
+            className={styles.glasses}
             height={222}
             viewBox="0 0 222 222"
             fill="none"
@@ -79,6 +81,7 @@ export const Question = () => {
     return (
         <svg
             width={218}
+            className={styles.question}
             height={218}
             viewBox="0 0 218 218"
             fill="none"
@@ -116,6 +119,7 @@ export const Angel = () => {
     return (
         <svg
             width={203}
+            className={styles.angel}
             height={203}
             viewBox="0 0 203 203"
             fill="none"
@@ -153,6 +157,7 @@ export const Victory = () => {
     return (
         <svg
             width={242}
+            className={styles.victory}
             height={242}
             viewBox="0 0 242 242"
             fill="none"

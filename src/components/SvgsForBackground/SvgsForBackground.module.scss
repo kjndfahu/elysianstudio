@@ -1,3 +1,10 @@
+@media(max-width: 1580px){
+  .laptop{
+    width: 180px;
+    height: 180px;
+  }
+}
+
 @media(max-width: 1536px){
   .akcia{
     width: 280px;
@@ -65,6 +72,18 @@
     width: 90px;
     height: 90px;
   }
+
+  .flame{
+    width: 150px;
+    height: 150px;
+  }
+}
+
+@media(max-width: 1180px){
+  .laptop{
+    width: 130px;
+    height: 130px;
+  }
 }
 
 @media(max-width: 1115px){
@@ -99,11 +118,35 @@
     width: 80px;
     height: 80px;
   }
+
+  .flame{
+    width: 100px;
+    height: 100px;
+  }
+}
+
+@media(max-width: 690px){
+  .laptop{
+    width: 100px;
+    height: 100px;
+  }
 }
 
 @media(max-width: 600px){
   .stars{
     width: 70px;
     height: 70px;
+  }
+
+  .flame{
+    width: 70px;
+    height: 70px;
+  }
+}
+
+@media(max-width: 440px){
+  .laptop{
+    width: 80px;
+    height: 80px;
   }
 }
