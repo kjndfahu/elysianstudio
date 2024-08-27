@@ -145,6 +145,93 @@
   left: -34vw;
 }
 
+@media(max-width: 1536px){
+  .akcia{
+    top: -21vw;
+    left: -39vw;
+  }
+
+  .stars{
+    top: -18vw;
+    left: 25vw;
+  }
+}
+
+@media(max-width: 1450px){
+  .akcia{
+    top: -23vw;
+    left: -39vw;
+  }
+  .rozigrish{
+    top: -7vw;
+    left: -49vw;
+  }
+}
+
+@media(max-width: 1230px){
+  .akcia{
+    top: -25vw;
+    left: 16vw;
+  }
+  .rozigrish{
+    top: -25vw;
+    left: -36vw;
+  }
+
+  .stars{
+    top: 13vw;
+    left: 10vw;
+  }
+
+  .colors{
+    top: 15vw;
+    left: -30vw;
+  }
+}
+
+@media(max-width: 1115px){
+  .akcia{
+    top: -30vw;
+    left: -36vw;
+  }
+  .rozigrish{
+    top: -30vw;
+    left: 16vw;
+  }
+
+  .stars{
+    top: 17vw;
+    left: 10vw;
+  }
+
+  .colors{
+    top: 22vw;
+    left: -29vw;
+  }
+}
+
+@media(max-width: 1000px){
+  .akcia{
+    top: -35vw;
+    left: -30vw;
+  }
+  .rozigrish{
+    top: -35vw;
+    left: 10vw;
+  }
+}
+
+@media(max-width: 900px){
+  .stars{
+    top: 23vw;
+    left: 11vw;
+  }
+
+  .colors{
+    display: none;
+  }
+}
+
 
 @media(max-width: 800px){
   .wrapper{
@@ -177,5 +264,86 @@
   }
   .herotext{
     font-size: 14px;
+  }
+
+  .akcia{
+    top: -25vw;
+    left: 16vw;
+  }
+  .rozigrish{
+    top: -25vw;
+    left: -36vw;
+  }
+
+  .stars{
+    top: 8vw;
+    left: 15vw;
+  }
+}
+
+@media(max-width: 650px){
+  .akcia{
+    top: -37vw;
+    left: 16vw;
+  }
+  .rozigrish{
+    top: -30vw;
+    left: -36vw;
+  }
+}
+
+@media(max-width: 585px){
+  .akcia{
+    top: -43vw;
+    left: 13vw;
+  }
+  .rozigrish{
+    top: -34vw;
+    left: -40vw;
+  }
+
+  .stars{
+    top: 19vw;
+    left: 20vw;
+  }
+}
+
+@media(max-width: 585px){
+  .akcia{
+    top: -53vw;
+    left: 10vw;
+  }
+  .rozigrish{
+    top: -43vw;
+    left: -40vw;
+  }
+}
+
+@media(max-width: 450px){
+  .akcia{
+    top: -60vw;
+    left: 10vw;
+  }
+  .rozigrish{
+    top: -50vw;
+    left: -50vw;
+  }
+}
+
+@media(max-width: 450px){
+  .akcia{
+    top: -68vw;
+    left: 10vw;
+  }
+  .rozigrish{
+    top: -55vw;
+    left: -50vw;
+  }
+}
+
+@media(max-width: 400px){
+  .stars{
+    top: 27vw;
+    left: 27vw;
   }
 }

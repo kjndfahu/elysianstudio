@@ -5,6 +5,7 @@ export const Akcia = () => {
     return (
         <svg
             width={302}
+            className={styles.akcia}
             height={302}
             viewBox="0 0 302 302"
             fill="none"
@@ -68,6 +69,7 @@ export const Rozigrish = () => {
     return (
         <svg
             width={302}
+            className={styles.rozigrish}
             height={302}
             viewBox="0 0 302 302"
             fill="none"
@@ -132,6 +134,7 @@ export const Colors = () => {
     return (
         <svg
             width={272}
+            className={styles.colors}
             height={272}
             viewBox="0 0 272 272"
             fill="none"
@@ -169,6 +172,7 @@ export const Stars =() => {
     return (
         <svg
             width={152}
+            className={styles.stars}
             height={152}
             viewBox="0 0 152 152"
             fill="none"
