@@ -195,6 +195,7 @@ export const Byehand = () => {
     return (
         <svg
             width={225}
+            className={styles.byehand}
             height={225}
             viewBox="0 0 225 225"
             fill="none"
