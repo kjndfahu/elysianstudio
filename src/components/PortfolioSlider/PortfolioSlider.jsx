@@ -15,7 +15,7 @@ export default function PortfolioSlider() {
         <div className="portfolio-slider">
             <Swiper
                 slidesPerView={5}
-                spaceBetween={150}
+                spaceBetween={30}
                 navigation={true}
                 centeredSlides={true}
                 loop={true}

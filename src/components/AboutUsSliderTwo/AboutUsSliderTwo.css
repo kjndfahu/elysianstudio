@@ -8,6 +8,9 @@
   .mySwiper {
     overflow: hidden;
     padding: 0 20px;
+    background: transparent;
+
+
 
     &::before,
     &::after {
@@ -28,6 +31,22 @@
     &::after {
       right: 0;
       background: linear-gradient(to left, rgba(0, 0, 0, 0.8), transparent);
+    }
+  }
+}
+
+.sliderContainer{
+  & .mySwiper{
+    &::before{
+      background: transparent;
+    }
+  }
+}
+
+.sliderContainer{
+  & .mySwiper{
+    &::after{
+      background: transparent;
     }
   }
 }
@@ -143,5 +162,7 @@
     }
   }
 }
+
+
 
 

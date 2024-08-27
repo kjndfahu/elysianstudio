@@ -2,11 +2,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 50px;
+
 }
 
 .portfolio-slider{
-    max-width: 1550px;
+    max-width: 1800px;
     display: flex;
     gap: 100px;
 }

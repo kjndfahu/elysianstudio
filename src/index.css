@@ -13,6 +13,19 @@ body {
   background-image: url("./assets/BGLighting.svg");
   background-repeat: no-repeat;
   overflow-x: hidden;
+
+
+  background-position: center center;
+
+  background-attachment: fixed;
+
+  -webkit-background-size: cover;
+
+  -moz-background-size: cover;
+
+  -o-background-size: cover;
+
+  background-size: cover;
 }
 
 html, body {
