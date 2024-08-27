@@ -15,14 +15,14 @@ export default function PortfolioSlider() {
         <div className="portfolio-slider">
             <Swiper
                 slidesPerView={5}
-                spaceBetween={30}
+                spaceBetween={150}
                 navigation={true}
                 centeredSlides={true}
                 loop={true}
-                // autoplay={{
-                //     delay: 2500,
-                //     disableOnInteraction: false,
-                // }}
+                autoplay={{
+                    delay: 2500,
+                    disableOnInteraction: false,
+                }}
                 modules={[Autoplay, Navigation]}
                 className="mySwiper"
             >

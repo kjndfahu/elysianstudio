@@ -4,6 +4,7 @@ import './AboutUsSliderTwo.css';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
+import {Autoplay} from "swiper/modules";
 
 const slides = [
     { id: 1,
@@ -64,6 +65,11 @@ const AboutUsSliderTwo = () => {
                 slidesPerView={3}
                 centeredSlides={true}
                 loop={true}
+                autoplay={{
+                    delay: 2500,
+                    disableOnInteraction: false,
+                }}
+                modules={[Autoplay]}
                 className="mySwiper"
                 grabCursor={true}
                 slideToClickedSlide={true}
