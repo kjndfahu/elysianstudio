@@ -28,6 +28,7 @@
 
 .absolutes{
   position: absolute;
+  opacity: 0.85;
 }
 
 .laptop{
@@ -91,6 +92,29 @@
   height: 60%;
   overflow: hidden;
   object-fit: cover;
+  animation-delay: calc( (10s / var(--quantity)) * (var(--position) - 1) - 10s)!important;
+}
+
+@keyframes autoRun{
+  from{
+    left: 100%;
+  }to{
+     left: calc(var(--width) * -1);
+   }
+}
+.mainlineabs:hover{
+  animation-play-state: paused!important;
+}
+
+.mainlineabs[reverse="true"] {
+  animation: reversePlay 10s linear infinite;
+}
+@keyframes reversePlay{
+  from{
+    left: calc(var(--width) * -1);
+  }to{
+     left: 100%;
+   }
 }
 
 @media(max-width: 1800px){
