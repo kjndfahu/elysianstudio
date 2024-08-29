@@ -19,12 +19,12 @@ export default function PortfolioSlider() {
                 navigation={true}
                 centeredSlides={true}
                 loop={true}
-                autoplay={{
-                    delay: 2500,
-                    disableOnInteraction: false,
-                }}
-                modules={[Autoplay, Navigation]}
-                className="mySwiper"
+                // autoplay={{
+                //     delay: 2500,
+                //     disableOnInteraction: false,
+                // }}
+                modules={[ Navigation]}
+                className="mySwiperPortfolio"
             >
                 <SwiperSlide>
                     <div className="portfolio-block">

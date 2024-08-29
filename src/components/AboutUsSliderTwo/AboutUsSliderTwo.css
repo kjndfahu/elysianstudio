@@ -126,9 +126,7 @@
 
 @media(max-width: 800px){
   .sliderContainer{
-    .mySwiper{
-      width: 150vw;
-    }
+    width: 200vw;
   }
   .title{
     font-size: 20px;
@@ -156,10 +154,33 @@
 }
 
 @media(max-width: 460px){
-  .sliderContainer{
-    .mySwiper{
-      width: 243vw;
-    }
+
+
+  .swiper-slide {
+    transition: filter 0.3s ease, transform 0.3s ease;
+    filter: blur(0);
+  }
+
+
+}
+
+@media(max-width: 420px){
+  .textcontainer {
+    gap: 0;
+  }
+}
+
+@media(max-width: 400px){
+  .title{
+    font-size: 16px;
+  }
+  .subtitle {
+    font-size: 12px;
+  }
+
+  .btn{
+    padding: 10px 15px;
+    font-size: 13px;
   }
 }
 

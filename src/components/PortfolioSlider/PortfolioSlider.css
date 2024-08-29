@@ -1,17 +1,17 @@
-.mySwiper{
+.mySwiperPortfolio {
     display: flex;
     justify-content: center;
     align-items: center;
 
 }
 
-.portfolio-slider{
+.portfolio-slider {
     max-width: 1800px;
     display: flex;
     gap: 100px;
 }
 
-.portfolio-block{
+.portfolio-block {
     display: flex;
     flex-direction: column;
     width: 300px;
@@ -19,13 +19,13 @@
     gap: 25px;
 }
 
-.textssliders{
+.textssliders {
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
 
-.slidermaintext{
+.slidermaintext {
     font-family: SfRoundedSemiBold;
     font-size: 28px;
     line-height: 33.41px;
@@ -35,7 +35,7 @@
 }
 
 
-.slidertext{
+.slidertext {
     font-family: SfRoundedMedium;
     font-size: 16px;
     line-height: 19.09px;
@@ -45,7 +45,7 @@
 
 }
 
-.swiper-button-prev:after{
+.swiper-button-prev:after {
     background: rgba(255, 255, 255, 0.1);
     position: absolute;
     border-radius: 60px;
@@ -55,7 +55,7 @@
 }
 
 
-.swiper-button-next:after{
+.swiper-button-next:after {
     background: rgba(255, 255, 255, 0.1);
     position: absolute;
     border-radius: 60px;
@@ -64,6 +64,7 @@
     color: rgba(240, 233, 223, 1);
 
 }
+
 .swiper-button-prev,
 .swiper-button-next {
     &:after {
@@ -75,34 +76,68 @@
     }
 }
 
-.swiper-slide{
+.swiper-slide {
     filter: blur(15px);
     width: 90%;
 }
 
-@media(max-width:600px){
-    .portfolio-slider{
+@media (max-width: 600px) {
+    .portfolio-slider {
         width: 1550px;
     }
 
-    .slidermaintext{
+    .portfolio-block {
+        display: flex;
+        flex-direction: column;
+        width: 200px;
+        height: 322px;
+        gap: 25px;
+    }
+
+    .slidermaintext {
         font-size: 20px;
     }
 
-    .slidertext{
+    .slidertext {
         font-size: 14px;
     }
 
-    .portfolio-block{
-        height: 250px;
+    .portfolio-block {
+        width: 40vw;
         gap: 15px;
     }
 
-    .textssliders{
+    .textssliders {
         gap: 5px;
     }
 
-    .imageslider{
-        height: 180px;
+    .mySwiperPortfolio {
+        width: 230vw;
+    }
+}
+
+@media (max-width: 460px) {
+    .mySwiperPortfolio {
+        width: 270vw;
+    }
+
+    .portfolio-slider {
+        height: 230px;
+    }
+
+}
+
+@media (max-width: 420px) {
+
+    .portfolio-slider {
+        height: 200px;
+    }
+
+}
+
+@media (max-width: 360px) {
+
+    .portfolio-slider {
+        height: 230px;
     }
 }
